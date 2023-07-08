@@ -1,0 +1,13 @@
+<div>
+  <h1>Lista de Productos</h1>
+  {{#each mapAllproducts}}
+    <div style="width: 300px; padding: 0.3rem; border: solid 3px; margin: 1rem;">
+      <p>{{this.name}}</p>
+
+      <p>{{this.description}}</p>
+
+      <p>{{this.price}}</p>
+
+    </div>
+  {{/each}}
+</div>

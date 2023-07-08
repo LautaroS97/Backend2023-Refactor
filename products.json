@@ -1,0 +1,20 @@
+[{
+    "name": "Póster de Reyna",
+    "description": "Ilustración de personaje de Valorant",
+    "price": 120,
+    "stock": 10,
+    "thumbnails": "img/valorantReyna.webp",
+    "status": true,
+    "code": "ABC123",
+    "category": "Posters de videojuegos"
+  },{
+    "name": "Póster de Killjoy",
+    "description": "Ilustración de personaje de Valorant",
+    "price": 120,
+    "stock": 10,
+    "thumbnails": "img/killjoyValorant.png",
+    "status": true,
+    "code": "CDE345",
+    "category": "Posters de videojuegos"
+  }
+]

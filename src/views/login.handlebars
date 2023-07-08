@@ -1,0 +1,12 @@
+<form action="/api/sessions/login" method="POST">
+
+  <label for="email">Correo electrónico:</label>
+  <input maxlength="80"  type="email" id="email" name="email" required/>
+
+  <label for="password">Contraseña:</label>
+  <input maxlength="80" type="password" id="password" name="password" required/>
+
+  <button type="submit">Ingresar</button>
+</form>
+<a href="/register">¿No está registrado?</a>
+<a href="/api/sessions/github"><button>Ingresar con GitHub</button></a>

@@ -1,0 +1,42 @@
+<div class="main">
+  <h1>¡Bienvenido!</h1>
+
+  <a href="/logout" class="logOut">Cerrar sesión</a>
+
+  <div class="shop">
+
+    {{#each p}}
+
+      <div class="containers">
+        <p>Nombre: {{this.name}}</p>
+
+        <p>Descripción: {{this.description}}</p>
+
+        <p>Precio: {{this.price}}</p>
+
+        <button>Añadir al carrito</button>
+
+        <a href="http://localhost:3000/productDetail/{{this._id}}">Más detalles</a>
+
+      </div>
+    {{/each}}
+  </div>
+
+  <div class="botonera">
+    {{this.pagingCounter}}
+    {{totalPages}}
+
+    <hr />
+    <hr />
+
+    {{prevPage}}
+    {{#if hasPrevPage}}
+      <a href="http://localhost:3000/products/?page={{prevPage}}">⬅️</a>
+    {{/if}}
+    {{page}}
+    {{#if hasNextPage}}
+      <a href="http://localhost:3000/products/?page={{nextPage}}">➡️</a>
+    {{/if}}
+    {{nextPage}}
+  </div>
+</div>

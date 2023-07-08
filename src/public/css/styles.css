@@ -1,0 +1,62 @@
+*{
+    background-color: PaleGoldenrod;
+}
+#myForm{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1rem;
+}
+label{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+input{
+    background-color: white;
+    padding: 0.2rem;
+    border: black 1px solid;
+}
+textarea{
+    margin-bottom: 1rem;
+    background-color: white;
+    border: black 1px solid;
+}
+button{
+    margin-top: 1rem;
+    background-color: goldenrod;
+    border: black 1px solid;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: large;
+}
+button:hover{
+    background-color: gold;
+}
+.swal2-input-label{
+    background-color: white;
+}
+.swal2-confirm{
+    background-color: goldenrod !important;
+}
+.swal2-confirm:hover{
+    background-color: gold!important;
+}
+.swal2-actions{
+    background-color: white;
+}
+#input-msg{
+    width: 27rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+#div-msgs{
+    width: 25rem;
+    padding: 1rem;
+    min-height: 5rem;
+    border: goldenrod 1px solid;
+    color: white;
+    background-color: black;
+}
+#div-msgs p{
+    background-color: black;
+}

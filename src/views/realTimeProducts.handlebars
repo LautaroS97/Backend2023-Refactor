@@ -1,0 +1,32 @@
+<div>
+  <h1>Lista de productos actualizada</h1>
+  <form id="myForm">
+    <label for="title">Título:</label>
+    <input required type="text" name="title" id="title"></input>
+
+    <label for="description">Descripción:</label>
+    <textarea requiredname="description" id="description"></textarea>
+
+    <label for="price">Precio:</label>
+    <input required type="number" name="price" id="price"></input>
+
+    <label for="thumbnails">Imagen:</label>
+    <input required type="text" name="thumbnails" id="thumbnails"></input>
+
+    <label for="code">Código:</label>
+    <input required type="text" name="code" id="code"></input>
+
+    <label for="stock">Stock:</label>
+    <input required type="number" name="stock" id="stock"></input>
+
+    <label for="category">Categoría:</label>
+    <input required type="text" name="category" id="category"></input>
+
+    <button type="submit" value="Submit">Enviar</button>
+  </form>
+    
+  <ul id="allProducts"></ul>
+
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/index.js"></script>
